@@ -38,6 +38,11 @@ body {
   animation: pulse 1.8s ease-in-out infinite;
 }
 
+.visual-gif {
+  object-fit: cover;
+  border: 6px solid #fff;
+}
+
 @keyframes pulse {
   50% { transform: scale(1.06); }
 }
